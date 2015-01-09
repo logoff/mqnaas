@@ -51,7 +51,7 @@ public class Unit {
 
 	@Override
 	public String toString() {
-		return "Unit [name=" + unit.getName() + ", type=" + unit.getType() + ", range=" + getRange() + "]";
+		return "Unit [id=" + unit.getId() + ", name=" + unit.getName() + ", type=" + unit.getType() + ", range=" + getRange() + "]";
 	}
 
 	public String getName() {
